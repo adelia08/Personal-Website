@@ -5,14 +5,28 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsMedium, BsSun, BsFillMoonFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { useColorMode } from "@chakra-ui/color-mode";
+import Header from "./components/Header";
+import { Gradient } from "./components/GradientBgCanvas/Gradient.js";
+import "./App.css";
+import { useEffect } from "react";
 
 function App() {
   //===============================COLOR MODE
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
+
+  //GRADIENT BG
+  useEffect(() => {
+    // Create your instance
+    const gradient = new Gradient();
+    gradient.initGradient('#gradient-canvas');
+}, []);
+
   return (
-    //==============================NAVBAR
-    <VStack p="8">
+
+ 
+    <VStack p="8" mt="25">
+      <canvas id="gradient-canvas" data-transition-in/>
       <Flex w="100%">
         <Heading
           size="md"
@@ -76,7 +90,10 @@ function App() {
           onClick={() => window.open("")}
         />
       </Flex>
+      <Header />
     </VStack>
+    
+
   );
 }
 
