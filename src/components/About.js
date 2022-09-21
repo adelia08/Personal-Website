@@ -19,6 +19,7 @@ import { useMediaQuery } from "@chakra-ui/react";
 import "./About.css";
 import { AiTwotoneFileText } from "react-icons/ai";
 import { useState } from "react";
+import "@fontsource/reem-kufi";
 
 const About = () => {
   const [isNotSmallerScreen] = useMediaQuery("(min-width: 600px)");
@@ -159,7 +160,7 @@ const About = () => {
                 <Text fontSize="5xl" fontFamily="Reem Kufi, sans-serif">
                   About Me
                 </Text>
-                <Text fontSize="xl">
+                <Text fontSize="xl" fontFamily="Reem Kufi, sans-serif">
                   Kia Ora, you can call me adel, I am a design enthusiast. I
                   like to make a beautifully user interface and also user
                   friendly. Currently i'm learning React JS to improve my skill
@@ -185,7 +186,7 @@ const About = () => {
                 >
                   Experience
                 </Text>
-                <Text fontSize="xl">
+                <Text fontSize="xl" fontFamily="Reem Kufi, sans-serif">
                   This is my previous experiences
                   <br />
                 </Text>

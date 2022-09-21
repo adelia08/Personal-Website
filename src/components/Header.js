@@ -10,7 +10,14 @@ const Header = () => {
     <section id="home">
       <Stack>
         <Flex w="100%" maxWidth="100%">
-          <Box alignSelf="auto" px="20" py="36" mt={8} ml={[28, 22, 48]}>
+          <Box
+            alignSelf="auto"
+            px="20"
+            py="36"
+            mt={8}
+            ml={[28, 22, 48]}
+            mr={[8, 22, 36]}
+          >
             <Text fontSize="5xl" fontFamily="Reem Kufi, sans-serif">
               Hello, I'm
               <br />
