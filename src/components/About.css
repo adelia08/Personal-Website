@@ -21,6 +21,7 @@
     background: var(--primary-color);
     margin: 20px auto;
     padding: 20px;
+    margin-left:200px;
   }
   
   /* Card container */
@@ -41,7 +42,7 @@
     content: "";
     position: absolute;
     width: 50%;
-    border: solid #7f5283;
+    border: solid #FF6464;
   }
   
   /* Setting the border of top, bottom, left */
@@ -84,16 +85,19 @@
   .info {
     display: flex;
     flex-direction: column;
-    background: #333;
-    color: gray;
+    background: #FFEFCF;
+    color: #900048;
     border-radius: 10px;
     padding: 10px;
+
   }
   
   /* Title of the card */
   .title {
     color: #7f5283;
     position: relative;
+    font-size: 1em;
+    font-weight: bold;
   }
   
   /* Timeline dot  */
@@ -104,7 +108,7 @@
     height: 10px;
     background: white;
     border-radius: 999px;
-    border: 3px solid #7f5283;
+    border: 3px solid #D2EBE9;
   }
   
   /* text right if the card is even  */
