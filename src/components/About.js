@@ -16,7 +16,6 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { useMediaQuery } from "@chakra-ui/react";
-import "./About.css";
 import { AiTwotoneFileText } from "react-icons/ai";
 import { useState } from "react";
 import "@fontsource/reem-kufi";
@@ -67,6 +66,10 @@ const About = () => {
                 overflow={"hidden"}
                 mr={[24, 24, 56, 56]}
                 ml={[24, 12, 24, 24]}
+                _hover={{
+                  transform: "scale(1.05)",
+                  transition: "all .2s ease-in-out",
+                }}
               >
                 <Flex justify="center" mt={[8, 12]}>
                   <Image
@@ -156,13 +159,13 @@ const About = () => {
             </div>
 
             <div>
-              <Box alignSelf="auto" px="20" py="36" mt={8} ml={[32, 22, 48]}>
+              <Box alignSelf="auto" px="20" py="36" mt={4} ml={[20, 22, 48]}>
                 <Text fontSize="5xl" fontFamily="Reem Kufi, sans-serif">
                   About Me
                 </Text>
                 <Text fontSize="xl" fontFamily="Reem Kufi, sans-serif">
                   Kia Ora, you can call me adel, I am a design enthusiast. I
-                  like to make a beautifully user interface and also user
+                  like to make a beautiful user interface and also user
                   friendly. Currently i'm learning React JS to improve my skill
                   for build a website.
                 </Text>
@@ -191,51 +194,6 @@ const About = () => {
                   <br />
                 </Text>
               </Box>
-
-              <div class="timeline">
-                <div class="outer">
-                  <div class="card">
-                    <div class="info">
-                      <h3 class="title">Internship UI/UX Designer</h3>
-                      <h3 class="title">PT. Impact Byte Teknologi Edukasi</h3>
-                      <h3 class="title">Aug 2021 - Dec 2021</h3>
-                      <br />
-                      <p>
-                        Recreate the user interface for a website version of
-                        Waste 4 Change by identify the problem using design
-                        process steps.{" "}
-                      </p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="info">
-                      <h3 class="title">Student Laboratory Assistant</h3>
-                      <h3 class="title">
-                        Lembaga Pengembangan Komputerisasi Universitas Gunadarma
-                      </h3>
-                      <h3 class="title">Oct 2020 - Aug 2022</h3>
-                      <br />
-                      <p>
-                        Tutoring course and assessing the results of assignments
-                        by the students.{" "}
-                      </p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="info">
-                      <h3 class="title">Study Independent Frontend Engineer</h3>
-                      <h3 class="title">PT Ruang Raya Indonesia</h3>
-                      <h3 class="title">Feb 2022 - Jul 2022</h3>
-                      <br />
-
-                      <li>Build a website using React JS and Chakra UI</li>
-                      <li>Use Jira as a management tools</li>
-                      <li>Use DevOps tools Git,CI/CD</li>
-                      <li>Deployed on Vercel</li>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </Flex>
