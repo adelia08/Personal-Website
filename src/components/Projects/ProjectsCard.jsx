@@ -45,8 +45,9 @@ export const ProjectsCard = (props) => {
             <Flex>
               <Spacer />
               <Button variant="solid" colorScheme="teal" size="sm">
-                <a href={props.url} target="/" rel="noopener noreferrer"></a>
-                Preview
+                <a href={props.url} target="_blank" rel="noopener noreferrer">
+                  Preview
+                </a>
               </Button>
             </Flex>
           </Box>
