@@ -25,7 +25,7 @@ const Header = () => {
                 Khofifah Adelia
               </Text>
               <Text fontSize="2xl">
-                I'm an undergraduate informatic student at Gunadarma University.
+                I'm final year informatics student at Gunadarma University.
                 <br />
                 This is my personal website for project documentation that i
                 will make in the forward. So pleasure if you want to connect

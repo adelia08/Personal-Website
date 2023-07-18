@@ -19,6 +19,7 @@ import { useMediaQuery } from "@chakra-ui/react";
 import { AiTwotoneFileText } from "react-icons/ai";
 import { useState } from "react";
 import "@fontsource/reem-kufi";
+import profil from "../assets/profil.jpg";
 
 const About = () => {
   const [isNotSmallerScreen] = useMediaQuery("(min-width: 600px)");
@@ -76,9 +77,7 @@ const About = () => {
                     w={["150px", "200px"]}
                     h={["150px", "200px"]}
                     rounded={"full"}
-                    src={
-                      "https://www.linkpicture.com/q/7c4c8fff-8a9e-414d-982d-a86b713363c9.jpg"
-                    }
+                    src={profil}
                     objectFit={"cover"}
                   />
                 </Flex>
