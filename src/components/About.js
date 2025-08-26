@@ -36,7 +36,7 @@ const About = () => {
   };
 
   const toast = useToast();
-  const [value] = useState("khofifahadelia08@gmail.com");
+  const [value] = useState("khofifahadelia6501@gmail.com");
   const { onCopy } = useClipboard(value);
 
   const handleCopy = () => {
