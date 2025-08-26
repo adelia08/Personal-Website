@@ -43,7 +43,6 @@ function App() {
         Experience
       </Text>
 
-      <br />
 
       {
         timelineData.map((timelineData) => (
@@ -58,8 +57,8 @@ function App() {
       }
 
       <Text
-        py="12"
-        mt={{ base: "8", md: "36", lg: "42" }}
+        py="24"
+        mt={{ base: "-2", md: "36", lg: "42" }}
         pl={{ base: "4", md: "8", lg: "16" }}
         alignSelf="flex-start"
         fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
@@ -73,10 +72,9 @@ function App() {
         wrap="wrap"
         justify="center"
         align="flex-start"
-        px={{ base: 4, md: 8, lg: 16 }}
-        py={8}
+        px={{ base: 12, md: 8, lg: 16 }}
         w="full"
-        gap={{ base: 4, md: 6 }}
+        gap={{ base: 10, md: 6, lg: 8 }}
       >
         {projectsData.map((data) => (
           <ProjectsCard
@@ -108,14 +106,15 @@ function App() {
       <Layout>
         <hr style={{ borderColor: 'rgba(255, 255, 255, 0.2)', width: '100%', borderTopWidth: '1px' }} />
         <Footer style={{
-          color: "white",
+          color: "pink",
           width: "100%",
-          fontSize: "18px",
+          fontSize: "16px",
           textAlign: 'center',
           fontWeight: "bold",
           marginBottom: "36px",
           marginTop: "36px",
-          backgroundColor: 'transparent'
+          backgroundColor: 'transparent',
+          fontFamily: "Reem Kufi, sans-serif"
         }}>
           Khofifah Adelia ©2022 Made with Chakra UI
         </Footer>

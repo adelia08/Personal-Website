@@ -39,11 +39,19 @@ export const ProjectsCard = (props) => {
           </Stack>
           <Flex>
             <Spacer />
-            <Button rounded="20px" variant="solid" bg={"#fecaca"} color="#321F28" size="sm">
-              <a href={props.url} target="_blank" rel="noopener noreferrer" fontFamily="Reem Kufi, sans-serif">
+            <Button rounded="20px" variant="solid" bg="#fecaca" color="#321F28" size="sm">
+
+              <a
+                href={props.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontFamily: "Reem Kufi, sans-serif", textDecoration: "none" }}
+              >
                 Preview
               </a>
+
             </Button>
+
           </Flex>
         </Box>
 

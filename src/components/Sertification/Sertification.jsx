@@ -4,7 +4,7 @@ import { Text, Image } from "@chakra-ui/react";
 
 export default function Sertification({ data }) {
     return (
-        <div className="Sertification">
+        <div className="Sertification" id="sertification">
             <Carousel
                 className="carousel"
                 autoPlay

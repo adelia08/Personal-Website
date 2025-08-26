@@ -53,6 +53,20 @@ const NavBar = () => {
             </Button>
           </Link>
 
+          <Link href="#experience" passHref>
+            <Button
+              bg={"#D2EBE9"}
+              size="md"
+              fontWeight="semibold"
+              ml="30"
+              mr="15"
+              color="#321F28"
+              rounded="full"
+            >
+              Experience
+            </Button>
+          </Link>
+
           <Link href="#projects" passHref>
             <Button
               bg={"#D2EBE9"}
@@ -64,6 +78,20 @@ const NavBar = () => {
               rounded="full"
             >
               Projects
+            </Button>
+          </Link>
+
+          <Link href="#sertification" passHref>
+            <Button
+              bg={"#D2EBE9"}
+              size="md"
+              fontWeight="semibold"
+              ml="30"
+              mr="15"
+              color="#321F28"
+              rounded="full"
+            >
+              Sertification
             </Button>
           </Link>
         </Flex>
@@ -142,6 +170,21 @@ const NavBar = () => {
             </Button>
           </Link>
 
+          <Link href="#experience" passHref>
+            <Button
+              as="a"
+              variant="ghost"
+              aria-label="Contact"
+              my={5}
+              w="100%"
+              rounded={"full"}
+              bg={"#D2EBE9"}
+              size="md"
+            >
+              Experience
+            </Button>
+          </Link>
+
           <Link href="#projects" passHref>
             <Button
               as="a"
@@ -156,6 +199,23 @@ const NavBar = () => {
               Projects
             </Button>
           </Link>
+
+          <Link href="#sertification" passHref>
+            <Button
+              as="a"
+              variant="ghost"
+              aria-label="Contact"
+              my={5}
+              w="100%"
+              rounded={"full"}
+              bg={"#D2EBE9"}
+              size="md"
+            >
+              Sertification
+            </Button>
+          </Link>
+
+
         </Flex>
       </Flex>
     </Flex>
