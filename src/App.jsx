@@ -43,15 +43,19 @@ function App() {
         Experience
       </Text>
 
-      {timelineData.map((timelineData) => (
-        <TimelineCard
-          key={timelineData.id}
-          job={timelineData.job}
-          company={timelineData.company}
-          date={timelineData.date}
-          description={timelineData.description}
-        />
-      ))}
+      <br />
+
+      {
+        timelineData.map((timelineData) => (
+          <TimelineCard
+            key={timelineData.id}
+            job={timelineData.job}
+            company={timelineData.company}
+            date={timelineData.date}
+            description={timelineData.description}
+          />
+        ))
+      }
 
       <Text
         py="12"

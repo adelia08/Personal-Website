@@ -25,7 +25,7 @@ export default function TimelineCard(props) {
       >
         <AccordionItem key={props.id}>
           <AccordionButton>
-            <Box flex="1" textAlign="left" fontSize={{ base: 'md', md: 'lg', lg: '2xl' }}>
+            <Box flex="1" textAlign="left" fontSize={{ base: 'md', md: 'lg', lg: 'xl' }}>
               <Text fontWeight={"bold"}>{props.job} - {props.company} ({props.date})</Text>
             </Box>
             <AccordionIcon />
