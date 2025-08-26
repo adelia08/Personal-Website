@@ -6,12 +6,11 @@ const timelineData = [
     company: "PT. Wijaya Karya Beton Tbk",
     date: "Nov 2023 - Present",
     description: [
-      "₊ ⊹ Built a responsive learning website using React JS and Chakra UI to deliver a seamless user experience.",
-      "₊ ⊹ Managed tasks and collaboration effectively by utilizing Jira throughout the project lifecycle.",
-      "₊ ⊹ Ensured efficient development workflows through GIT for version control and team collaboration (FE&BE).",
-      "₊ ⊹ Deployed the project successfully on Vercel, optimizing for performance and scalability.",
-      "₊ ⊹ Successfully completed my final project as a frontend developer within 3 months, delivering it on time and in accordance with the project timeline.",
-      "₊ ⊹ Successfully achieved a GPA of 3.90 after completing 20 course credits."
+      "₊ ⊹ Developed and enhanced website features for internal company applications, including procurement, ERP, and management systems etc, using CodeIgniter and Laravel.",
+      "₊ ⊹ Resolved bugs and optimized the functionality of existing systems to improve performance.",
+      "₊ ⊹ Conducted query analysis using Oracle and MySQL during the application development process, utilizing DBeaver for database management.",
+      "₊ ⊹ Created APIs and tested using Postman to ensure reliability and adherence to requirements.",
+      "₊ ⊹ Successfully completed a total more than 310 tasks within the target timeframe, demonstrating efficiency and commitment to project goals."
     ]
   },
 
